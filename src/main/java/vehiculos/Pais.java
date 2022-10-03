@@ -8,11 +8,11 @@ public class Pais {
 
     public Pais(String nombre){
         this.nombre = nombre;
-        ventasPorPaises.put(nombre, 0);
+        ventasPorPaises.put(this, 0);
     }
 
     public void agregarVenta(){
-        ventasPorPaises.put(nombre, ventasPorPaises.get(nombre)+1);
+        ventasPorPaises.put(this, ventasPorPaises.get(this)+1);
     }
 
     public static Pais paisMasVendedor(){
