@@ -28,4 +28,20 @@ public class Pais {
 
         return maxEntry.getKey();
     }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public static HashMap<Pais, Integer> getVentasPorPaises() {
+        return ventasPorPaises;
+    }
+
+    public static void setVentasPorPaises(HashMap<Pais, Integer> ventasPorPaises) {
+        Pais.ventasPorPaises = ventasPorPaises;
+    }
 }
