@@ -1,4 +1,4 @@
-package Vehiculos;
+package vehiculos;
 
 public class Vehiculo {
     protected String placa;
