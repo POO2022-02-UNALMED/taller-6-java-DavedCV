@@ -22,7 +22,7 @@ public class Camion extends Vehiculo{
         return cantidadCamiones;
     }
 
-    public static void setCantidadCamiones(String cantidadCamiones) {
+    public static void setCantidadCamiones(int cantidadCamiones) {
         Camion.cantidadCamiones = cantidadCamiones;
     }
 }
